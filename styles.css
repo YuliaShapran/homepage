@@ -24,8 +24,9 @@ body {
 
 .fh {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column-reverse;
 	justify-content: space-between;
+	align-items: center;
 }
 
 .fv {
@@ -87,8 +88,8 @@ body {
 
 .contact-info__block {
 	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
+	column-gap: 50px;
+	margin-top: 20px;
 }
 
 .contact-info__block--center {
